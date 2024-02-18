@@ -22,7 +22,7 @@ And make a package instance, train it and save it :
 Exemple :
 
 ```py
-package = LNPackage("package_file", "ctr", MultiplesNodes(), 5, 500) # Init Package Class
+package = lnp.LNPackage("package_file", "ctr", lnp.MultiplesNodes(), 5, 500) # Init Package Class
 package.train() # Train Nodes
 package.make() # Save Package File
 ```
